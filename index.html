@@ -37,17 +37,13 @@
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html#home">Onassis</a></h1>
+			<h1 class="logo"><a href="index.html#home">ACM Club</a></h1>
 			<i class="icon-remove menu-close"></i>
 			<a href="#home" class="smoothScroll">Home</a>
-			<a href="#services" class="smoothScroll">Services</a>
-			<a href="#portfolio" class="smoothScroll">Portfolio</a>
-			<a href="#about" class="smoothScroll">About</a>
+			<a href="#benefits" class="smoothScroll">Benefits</a>
+			<a href="#resources" class="smoothScroll">Resources</a>
+			<a href="#about" class="smoothScroll">Mission Statement</a>
 			<a href="#contact" class="smoothScroll">Contact</a>
-			<a href="#"><i class="icon-facebook"></i></a>
-			<a href="#"><i class="icon-twitter"></i></a>
-			<a href="#"><i class="icon-dribbble"></i></a>
-			<a href="#"><i class="icon-envelope"></i></a>
 		</div>
 		
 		<!-- Menu button -->
@@ -79,48 +75,108 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-				<h3>
-                    WELCOME TO <bold>THE WWU CS CLUB</bold>.<br/>
-				</h3>
+				<h1>NEWS</h1>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <table id="w" align="center">
+                        <tr>
+                            <th><h3>Next Meeting</h3></th>
+                        </tr>
+                        <tr>
+                            <th><h4>April 12</h4></th>
+                        </tr>
+                        <tr>
+                            <th><h4>KRH Physics Lab</h4></th>
+                        </tr>
+                        <tr>
+                            <th><h4>I hope to see you there!</h4></th>
+                        </tr>
+                    </table>
+                    <br><br>
 				</div>
 			</div>
 		</div><!-- /container -->
 	</div><!-- /w -->
 	
-	<!-- ========== SERVICES - GREY SECTION ========== -->
-	<section id="services" name="services"></section>
+    <!-- ========== WHITE SECTION ========== -->
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h1>How to Join</h1>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <table id="w" align="center">
+                        <tr>
+                            <th><h3>Go to mywwu.wallawalla.edu and log in</h3></th>
+                        </tr>
+                        <tr>
+                            <th><h4>Click on Student Center->Dashboard</h4></th>
+                        </tr>
+                        <tr>
+                            <th><h4>Scroll down in left menu, click Student Life->My Clubs</h4></th>
+                        </tr>
+                        <tr>
+                            <th><h4>Click Add a Club</h4></th>
+                        </tr>
+                        <tr>
+                            <th><h4>Click ACM (Computer Science) Club and sign up!</h4></th>
+                        </tr>
+                    </table>
+                    <br><br>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /w -->
+    
+	<!-- ========== Benefits - GREY SECTION ========== -->
+	<section id="benefits" name="benefits"></section>
 	<div id="g">
 		<div class="container">
 			<div class="row">
 				<h3>Benefits of the club!</h3>
 				<br>
 				<br>
-				<div class="col-lg-3">
+				<div class="col-lg-4">
 					<img src="assets/img/s1.png">
 					<h4>Lectures!</h4>
 					<p>We have lots of informative presentations and lectures on interesting topics. They aren't boring, we promise!</p>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-4">
 					<img src="assets/img/s2.png">
 					<h4>Git Server</h4>
 					<p>One of the biggest benefits is a private git server, hosted on campus and free to use by all club members.</p>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-4">
 					<img src="assets/img/s3.png">
 					<h4>ACM Membership</h4>
-					<p>If you're a part of this club for a certain amount of time, you get ACM Membership which is cool and has benefits but I'm not 100 percent sure what they are.</p>
-				</div>
-				<div class="col-lg-3">
-					<img src="assets/img/s4.png">
-					<h4>Stuff</h4>
-					<p>We do other fun and interesting stuff.</p>
+					<p>If you're a part of this club for a quarter, you'll get an ACM Membership. This gives you access to news and the latest findings in the computing world, as well as a host of other benefits.</p>
 				</div>
 			</div>
 		</div><!-- /container -->
 	</div><!-- /g -->
-	
-	<!-- ========== CHARTS - DARK GREY SECTION ========== -->
-	<div id="dg">
+    
+    
+	<section id="resources" name="resources"></section>
+	<div id="resourceswrap">
+		<div class="container">
+			<div class="row">
+				<h3>COOL WORKS, HOPEFULLY I UNDERSTAND SOMEDAY</h3>
+				<br>
+				<br>
+				<div class="col-lg-4 resources-space">
+					<a href="item.html"><img src="assets/img/work1.png"></a>
+				</div>
+				<div class="col-lg-4 resources-space">
+					<a href="item.html"><img src="assets/img/work2.png"></a>
+				</div>
+				<div class="col-lg-4 resources-space">
+					<a href="item.html"><img src="assets/img/work3.png"></a>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /resourceswrap -->
+
+	 <!--========== CHARTS - DARK GREY SECTION ========== -->
+	<!--<div id="dg">
 		<div class="container">
 			<div class="row">
 				<h3>SOME MEANINGLESS CHARTS</h3>
@@ -184,108 +240,50 @@
 							var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
 					</script>
 				</div>
-			
 			</div>
-		</div><!-- /container -->
-	</div><!-- /dg -->
-	
-	<section id="portfolio" name="portfolio"></section>
-	<div id="portfoliowrap">
-		<div class="container">
-			<div class="row">
-				<h3>COOL WORKS, HOPEFULLY I UNDERSTAND SOMEDAY</h3>
-				<br>
-				<br>
-				<div class="col-lg-4 port-space">
-					<a href="item.html"><img src="assets/img/work1.png"></a>
-				</div>
-				<div class="col-lg-4 port-space">
-					<a href="item.html"><img src="assets/img/work2.png"></a>
-				</div>
-				<div class="col-lg-4 port-space">
-					<a href="item.html"><img src="assets/img/work3.png"></a>
-				</div>
-			</div>
-		</div><!-- /container -->
-	</div><!-- /portfoliowrap -->
-	
-	<!-- ========== WHITE SECTION ========== -->
-	<div id="w">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-				<h3>WE WORK HARD TO DELIVER A <bold>HIGH QUALITY SERVICE</bold>. OUR AIM IS YOUR COMPLETE <bold>SATISFACTION</bold>.
-				</h3>
-				</div>
-			</div>
-		</div><!-- /container -->
-	</div><!-- /w -->
-	
+		</div>
+	</div>-->
 	<!-- ========== ABOUT - GREY SECTION ========== -->
 	<section id="about" name="about"></section>
 	<div id="g">
 		<div class="container">
 			<div class="row">
-				<h3>ABOUT SOME RANDOM PEOPLE (NOT US)</h3>
+				<h3>Mission Statement</h3>
 				<br>
 				<br>
 				<div class="col-lg-2"></div>
 				<div class="col-lg-8">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque.</p>
+				<p>The ACM Club is designed to enhance the experience of students interested in computer science at Walla Walla University. The club has three main pillars of focus: enhancing education and developing skills, fostering community, and serving others. Through these pillars the club seeks to enable its members to develop new abilities, form connections, and use their God-given talents in service to others.</p>
 				<br>
 				<br>
+                <h3> Current Officers: </h3>
 				</div>
 				<div class="col-lg-2"></div>
-				<div class="col-lg-3 team">
-					<img class="img-circle" src="assets/img/team01.jpg" height="90" width="90">
-					<h4>Liz Stewart</h4>
-					<h5><i>Product Manager</i></h5>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<p>
+				<div class="col-lg-4 team">
+					<img class="img-circle" src="assets/img/travis.jpg" height="120" width="90">
+					<h4>Travis Crumley</h4>
+					<h5><i>President</i></h5>
+					<p>Travis Crumley is a Graduating Senior in Computer Engineering </p>
+					<!--<p>
 						<a href="index.html#"><i class="icon-facebook"></i></a>
 						<a href="index.html#"><i class="icon-twitter"></i></a>
 						<a href="index.html#"><i class="icon-envelope"></i></a>
 
-					</p>
+					</p>-->
 				</div>
 
-				<div class="col-lg-3 team">
-					<img class="img-circle" src="assets/img/team02.jpg" height="90" width="90">
-					<h4>Brad Casey</h4>
-					<h5><i>Front-end Developer</i></h5>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<p>
-						<a href="index.html#"><i class="icon-facebook"></i></a>
-						<a href="index.html#"><i class="icon-twitter"></i></a>
-						<a href="index.html#"><i class="icon-envelope"></i></a>
-
-					</p>
+				<div class="col-lg-4 team">
+					<img class="img-circle" src="assets/img/nolan.jpg" height="120" width="90">
+					<h4>Nolan Chinn</h4>
+					<h5><i>VP of Education</i></h5>
+					<p>Nolan Chinn is a (Junior?) Computer Science Major</p>
 				</div>
 
-				<div class="col-lg-3 team">
-					<img class="img-circle" src="assets/img/team03.jpg" height="90" width="90">
-					<h4>Pamela Chow</h4>
-					<h5><i>Web Designer</i></h5>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<p>
-						<a href="index.html#"><i class="icon-facebook"></i></a>
-						<a href="index.html#"><i class="icon-twitter"></i></a>
-						<a href="index.html#"><i class="icon-envelope"></i></a>
-
-					</p>
-				</div>
-
-				<div class="col-lg-3 team">
-					<img class="img-circle" src="assets/img/team04.jpg" height="90" width="90">
-					<h4>Tim Gates</h4>
-					<h5><i>Back-end Guru</i></h5>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<p>
-						<a href="index.html#"><i class="icon-facebook"></i></a>
-						<a href="index.html#"><i class="icon-twitter"></i></a>
-						<a href="index.html#"><i class="icon-envelope"></i></a>
-
-					</p>
+				<div class="col-lg-4 team">
+					<img class="img-circle" src="assets/img/ethan.jpg" height="120" width="90">
+					<h4>Ethan Beaver</h4>
+					<h5><i>VP of Service</i></h5>
+					<p>Ethan Beaver is a (Junior?) Computer Science Major</p>
 				</div>
 			</div>
 		</div><!-- /container -->
@@ -298,26 +296,15 @@
 			<div class="row">
 					<h3><b>CONTACT US</b></h3>
 					<br>
-					<div class="col-lg-4">
+					<div class="col-lg-6">
 						<h3><b>Send Us A Message:</b></h3>
 						<h3>Travis.Crumley@wallawalla.edu</h3>
 						<br>
 					</div>
 					
-					<div class="col-lg-4">
-						<h3><b>Call Us:</b></h3>
-						<h3>Please Don't</h3>
-						<br>
-					</div>
-					
-					<div class="col-lg-4">
-						<h3><b>We Are (Not) Social (Yet)</b></h3>
-						<p>
-							<a href="index.html#"><i class="icon-facebook"></i></a>
-							<a href="index.html#"><i class="icon-twitter"></i></a>
-							<a href="index.html#"><i class="icon-envelope"></i></a>
-						</p>
-						<br>
+					<div class="col-lg-6">
+						<h3><b>Join us on Slack!<b></h3>
+                        <h3> Email Travis for details </h3>
 					</div>
 				</div>
 			</div>
@@ -326,7 +313,7 @@
 	
 	<div id="c">
 		<div class="container">
-			<p>Created by The CS Club, or it will be, blacktie.co did the template</a></p>
+			<p>Created by The ACM Club of Walla Walla University</a></p>
 		
 		</div>
 	</div>
