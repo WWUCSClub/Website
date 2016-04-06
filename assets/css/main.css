@@ -114,8 +114,8 @@ a:after {
 	letter-spacing: 2px;
 }
 
-/* Portfolio Wrap */
-#portfoliowrap {
+/* Resources Wrap */
+#resourceswrap {
 	background: url(../img/portfolio-bg.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:70px;
@@ -137,11 +137,11 @@ a:after {
 }
 
 
-#portfoliowrap h3 {
+#resourceswrap h3 {
 	color: #ffffff;
 }
 
-.port-space {
+.resources-space {
 	padding-bottom: 20px;
 }
 
@@ -149,17 +149,39 @@ a:after {
 /* White Wrap */
 
 #w {
-	background: #ffffff;
+	background: #ddd;
 	padding-top: 35px;
 	padding-bottom: 35px;
 	text-align: center;
 }
 
+#w h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: #1a1a1a;
+    letter-spacing: 1px;
+}
+
+#w td, #w th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
 #w h3 {
 	font-weight: 700;
+    font-size: 35px;
 	color: #7b7b7b;
 	letter-spacing: 1px;
 }
+
+#w h4 {
+	font-weight: 700;
+    font-size: 30px;
+	color: #7b7b7b;
+	letter-spacing: 1px;
+}
+
 
 #w bold {
 	color: #2f2f2f;
